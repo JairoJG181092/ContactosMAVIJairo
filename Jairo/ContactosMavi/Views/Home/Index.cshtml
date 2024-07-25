@@ -1,0 +1,53 @@
+﻿@using ContactosMavi.Models
+@model IEnumerable<Contacto>
+
+<h2>Contactos</h2>
+
+<input type="text" id="txtBuscar" />
+<button onclick="buscar()">Buscar</button>
+<button onclick="location.href='@Url.Action("Ver", "Transacciones")'">Ver Contacto</button>
+<button onclick="location.href='@Url.Action("Editar", "Transacciones")'">Editar Contacto</button>
+<button onclick="location.href='@Url.Action("Guardar", "Transacciones")'">Añadir Contacto</button>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Teléfono Fijo</th>
+            <th>Teléfono Móvil</th>
+            <th>Tipo Contacto</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach (var contacto in Model)
+            {
+                <tr>
+                    <td>@contacto.Nombre</td>
+                    <td>@contacto.TelefonoFijo</td>
+                    <td>@contacto.TelefonoMovil</td>
+                    <td>@contacto.TipoContacto</td>
+                    <td>
+                        <button onclick="location.href='@Url.Action("Ver", "Transacciones", new { id = contacto.Id })'">Ver</button>
+                        <button onclick="location.href='@Url.Action("Editar", "Transacciones", new { id = contacto.Id })'">Editar</button>
+                        <button onclick="eliminar(@contacto.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        
+       
+    </tbody>
+</table>
+
+<script>
+    function buscar() {
+        var nombre = document.getElementById('txtBuscar').value;
+        location.href = '@Url.Action("Buscar", "Transacciones")?nombre=' + nombre;
+    }
+
+    function eliminar(id) {
+        if (confirm('¿Está seguro de que desea eliminar este contacto?')) {
+            location.href = '@Url.Action("Eliminar", "Transacciones")?id=' + id;
+        }
+    }
+</script>

@@ -1,0 +1,50 @@
+﻿@model ContactosMavi.Models.Contacto
+
+<h2>Guardar Contacto</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+
+        @Html.LabelFor(m => m.Nombre)&nbsp; &nbsp; &nbsp; &nbsp;
+        @Html.TextBoxFor(m => m.Nombre)
+        @Html.ValidationMessageFor(m => m.Nombre)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.TipoContacto)
+        @Html.DropDownListFor(m => m.TipoContacto, new SelectList(new[] { "Amistad", "Familiar", "Trabajo" }))
+        @Html.ValidationMessageFor(m => m.TipoContacto)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.TelefonoFijo)
+        @Html.TextBoxFor(m => m.TelefonoFijo)
+        @Html.ValidationMessageFor(m => m.TelefonoFijo)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.TelefonoMovil)
+        @Html.TextBoxFor(m => m.TelefonoMovil)
+        @Html.ValidationMessageFor(m => m.TelefonoMovil)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.FechaNacimiento)
+        @Html.TextBoxFor(m => m.FechaNacimiento, "{0:yyyy-MM-dd}", new { type = "date" })
+        @Html.ValidationMessageFor(m => m.FechaNacimiento)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.Sexo)
+        @Html.DropDownListFor(m => m.Sexo, new SelectList(new[] { "Femenino", "Masculino" }))
+        @Html.ValidationMessageFor(m => m.Sexo)
+        <br />
+        <br />
+        @Html.LabelFor(m => m.EstadoCivil)
+        @Html.DropDownListFor(m => m.EstadoCivil, new SelectList(new[] { "Soltero", "Casado", "Divorciado", "Viudo", "Unión Libre" }))
+        @Html.ValidationMessageFor(m => m.EstadoCivil)
+
+    </div>
+    <br />
+    <br />
+    <div>
+        <button type="submit">Guardar</button>
+        <button type="button" onclick="location.href='@Url.Action("Index", "Transacciones")'">Cancelar</button>
+    </div>
+}

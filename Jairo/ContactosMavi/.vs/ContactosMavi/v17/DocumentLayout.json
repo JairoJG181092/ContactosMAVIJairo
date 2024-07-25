@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|d:\\users\\jairo jimenez garcia\\desktop\\jairo\\contactosmavi\\views\\transacciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:views\\transacciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|d:\\users\\jairo jimenez garcia\\desktop\\jairo\\contactosmavi\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|d:\\users\\jairo jimenez garcia\\desktop\\jairo\\contactosmavi\\views\\transacciones\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:views\\transacciones\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|d:\\users\\jairo jimenez garcia\\desktop\\jairo\\contactosmavi\\views\\transacciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:views\\transacciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|d:\\users\\jairo jimenez garcia\\desktop\\jairo\\contactosmavi\\views\\transacciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:views\\transacciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:clases\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A5494688-9BF0-4F3D-8718-CDB875585681}|ContactosMavi.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ver.cshtml",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Ver.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transacciones\\Ver.cshtml",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Ver.cshtml",
+              "RelativeToolTip": "Views\\Transacciones\\Ver.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:30:05.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMAVI\\Views\\Transacciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transacciones\\Edit.cshtml",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMAVI\\Views\\Transacciones\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Transacciones\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:03:07.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transacciones\\Create.cshtml",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Create.cshtml",
+              "RelativeToolTip": "Views\\Transacciones\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T05:50:07.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transacciones\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Views\\Transacciones\\Index.cshtml",
+              "RelativeToolTip": "Views\\Transacciones\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T05:10:58.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMAVI\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransaccionesController.cs",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMAVI\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "Controllers\\TransaccionesController.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAqwB4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:16:28.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Models\\Contacto.cs",
+              "RelativeDocumentMoniker": "Models\\Contacto.cs",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Models\\Contacto.cs",
+              "RelativeToolTip": "Models\\Contacto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:10:13.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Clases\\Conexion.cs",
+              "RelativeDocumentMoniker": "Clases\\Conexion.cs",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Clases\\Conexion.cs",
+              "RelativeToolTip": "Clases\\Conexion.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:02:07.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Users\\Jairo Jimenez Garcia\\Desktop\\Jairo\\ContactosMavi\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-24T23:56:34.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

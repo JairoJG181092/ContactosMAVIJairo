@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ContactosMavi.Models.Contacto>
+
+<h2>Contactos</h2>
+
+<input type="text" id="txtBuscar" />
+<button onclick="buscar()">Buscar</button>
+<button onclick="location.href='@Url.Action("Create", "Transacciones")'">Añadir Contacto</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Teléfono Fijo</th>
+            <th>Teléfono Móvil</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Sexo</th>
+            <th>Estado Civil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var contacto in Model)
+            {
+                <tr>
+                    <td>@contacto.Nombre</td>
+                    <td>@contacto.TipoContacto</td>
+                    <td>@contacto.TelefonoFijo</td>
+                    <td>@contacto.TelefonoMovil</td>
+                    <td>@contacto.FechaNacimiento.ToShortDateString()</td>
+                    <td>@contacto.Sexo</td>
+                    <td>@contacto.EstadoCivil</td>
+                    <td>
+                        @Html.ActionLink("Ver","Ver", new {id = contacto.Id})
+                        @Html.ActionLink("Edit", "Edit", new { id = contacto.Id })
+                        @Html.ActionLink("Delete", "Delete", new { id = contacto.Id })
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No se encontraron contactos.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function buscar() {
+        var nombre = document.getElementById('txtBuscar').value;
+        location.href = '@Url.Action("Buscar", "Transacciones")?nombre=' + nombre;
+    }
+
+    function eliminar(id) {
+        if (confirm('¿Está seguro de que desea eliminar este contacto?')) {
+            location.href = '@Url.Action("Eliminar", "Transacciones")?id=' + id;
+        }
+    }
+</script>

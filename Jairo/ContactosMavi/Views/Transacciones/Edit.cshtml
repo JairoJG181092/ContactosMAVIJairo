@@ -1,0 +1,60 @@
+﻿@model ContactosMavi.Models.Contacto
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Contacto</title>
+</head>
+<body>
+    <h2>Editar Contacto</h2>
+
+    <form action="@Url.Action("Create", "Transacciones")" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" value="@Model.Nombre" required="required" />
+        </div>
+        <div>
+            <label>Tipo Contacto:</label>
+            <select name="TipoContacto" required="required">
+                <option value="Amistad" @(Model.TipoContacto == "Amistad" ? "selected" : "")>Amistad</option>
+                <option value="Familiar" @(Model.TipoContacto == "Familiar" ? "selected" : "")>Familiar</option>
+                <option value="Trabajo" @(Model.TipoContacto == "Trabajo" ? "selected" : "")>Trabajo</option>
+            </select>
+        </div>
+        <div>
+            <label>Teléfono Fijo:</label>
+            <input type="text" name="TelefonoFijo" value="@Model.TelefonoFijo" pattern="\d*" />
+        </div>
+        <div>
+            <label>Teléfono Móvil:</label>
+            <input type="text" name="TelefonoMovil" value="@Model.TelefonoMovil" required="required" pattern="\d*" />
+        </div>
+        <div>
+            <label>Fecha Nacimiento:</label>
+            <input type="date" name="FechaNacimiento" value="@Model.FechaNacimiento.ToString("yyyy-MM-dd")" required="required" />
+        </div>
+        <div>
+            <label>Sexo:</label>
+            <select name="Sexo" required="required">
+                <option value="Masculino" @(Model.Sexo == "Masculino" ? "selected" : "")>Masculino</option>
+                <option value="Femenino" @(Model.Sexo == "Femenino" ? "selected" : "")>Femenino</option>
+            </select>
+        </div>
+        <div>
+            <label>Estado Civil:</label>
+            <select name="EstadoCivil" required="required">
+                <option value="Soltero" @(Model.EstadoCivil == "Soltero" ? "selected" : "")>Soltero</option>
+                <option value="Casado" @(Model.EstadoCivil == "Casado" ? "selected" : "")>Casado</option>
+                <option value="Divorciado" @(Model.EstadoCivil == "Divorciado" ? "selected" : "")>Divorciado</option>
+                <option value="Viudo" @(Model.EstadoCivil == "Viudo" ? "selected" : "")>Viudo</option>
+                <option value="Unión Libre" @(Model.EstadoCivil == "Unión Libre" ? "selected" : "")>Unión Libre</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Guardar</button>
+            <button type="button" onclick="location.href='@Url.Action("Index", "Home")'">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>

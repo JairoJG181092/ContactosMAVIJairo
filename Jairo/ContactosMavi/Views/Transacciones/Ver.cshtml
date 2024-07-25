@@ -1,0 +1,43 @@
+﻿@model ContactosMavi.Models.Contacto
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ver Contacto</title>
+</head>
+<body>
+    <h2>Ver Contacto</h2>
+
+    <div>
+        <label>Nombre:</label>
+        <input type="text" value="@Model.Nombre" disabled="disabled" />
+    </div>
+    <div>
+        <label>Tipo Contacto:</label>
+        <input type="text" value="@Model.TipoContacto" disabled="disabled" />
+    </div>
+    <div>
+        <label>Teléfono Fijo:</label>
+        <input type="text" value="@Model.TelefonoFijo" disabled="disabled" />
+    </div>
+    <div>
+        <label>Teléfono Móvil:</label>
+        <input type="text" value="@Model.TelefonoMovil" disabled="disabled" />
+    </div>
+    <div>
+        <label>Fecha Nacimiento:</label>
+        <input type="text" value="@Model.FechaNacimiento.ToShortDateString()" disabled="disabled" />
+    </div>
+    <div>
+        <label>Sexo:</label>
+        <input type="text" value="@Model.Sexo" disabled="disabled" />
+    </div>
+    <div>
+        <label>Estado Civil:</label>
+        <input type="text" value="@Model.EstadoCivil" disabled="disabled" />
+    </div>
+    <div>
+        <button onclick="location.href='@Url.Action("Index", "Transacciones")'">Regresar</button>
+    </div>
+</body>
+</html>
