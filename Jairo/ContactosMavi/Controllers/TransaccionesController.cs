@@ -79,7 +79,7 @@ namespace ContactosMavi.Controllers
         //}
 
         // GET: Transacciones/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edits(int id)
         {
             var contacto = ConsultarContactoPorId(id);
             return View(contacto);
@@ -87,18 +87,22 @@ namespace ContactosMavi.Controllers
 
         // POST: Transacciones/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edits(Contacto contacto)
         {
-            try
-            {
-                // TODO: Add update logic here
+            
+                if (ModelState.IsValid)
+                {
+                 
+                        ActualizarContacto(contacto);
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+
+                    return RedirectToAction("Index");
+                }
+                return View(contacto);
+            
+            
+               
+            
         }
 
         // GET: Transacciones/Delete/5

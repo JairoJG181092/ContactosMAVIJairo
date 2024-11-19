@@ -8,7 +8,7 @@
 <body>
     <h2>Editar Contacto</h2>
 
-    <form action="@Url.Action("Create", "Transacciones")" method="post">
+    <form action="@Url.Action("Edit", "Transacciones")" method="post">
         <input type="hidden" name="Id" value="@Model.Id" />
         <div>
             <label>Nombre:</label>
@@ -28,11 +28,11 @@
         </div>
         <div>
             <label>Teléfono Móvil:</label>
-            <input type="text" name="TelefonoMovil" value="@Model.TelefonoMovil" required="required" pattern="\d*" />
+            <input type="text" name="TelefonoMovil" value="@Model.TelefonoMovil"  pattern="\d*" />
         </div>
         <div>
             <label>Fecha Nacimiento:</label>
-            <input type="date" name="FechaNacimiento" value="@Model.FechaNacimiento.ToString("yyyy-MM-dd")" required="required" />
+            <input type="date" name="FechaNacimiento" value="@Model.FechaNacimiento.ToString("yyyy-MM-dd")"/>
         </div>
         <div>
             <label>Sexo:</label>
